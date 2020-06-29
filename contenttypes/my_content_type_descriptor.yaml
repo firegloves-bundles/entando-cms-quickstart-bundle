@@ -1,0 +1,371 @@
+  code: NWS
+  name: News
+  status: '0'
+  attributes:
+  - code: Date
+    type: Date
+    name: 
+    roles: []
+    disablingCodes: []
+    mandatory: true
+    listFilter: true
+    indexable: false
+    enumeratorStaticItems: 
+    enumeratorStaticItemsSeparator: 
+    enumeratorExtractorBean: 
+    validationRules:
+      minLength: 
+      maxLength: 
+      regex: 
+      rangeStartString: 
+      rangeEndString: 
+      rangeStartStringAttribute: 
+      rangeEndStringAttribute: 
+      equalString: 
+      equalStringAttribute: 
+      rangeStartDate: 
+      rangeEndDate: 
+      rangeStartDateAttribute: 
+      rangeEndDateAttribute: 
+      equalDate: 
+      equalDateAttribute: 
+      rangeStartNumber: 
+      rangeStartNumberAttribute: 
+      rangeEndNumber: 
+      rangeEndNumberAttribute: 
+      equalNumber: 
+      equalNumberAttribute: 
+      ognlValidation: 
+    nestedAttribute: 
+    compositeAttributes: 
+  - code: Title
+    type: Text
+    name: 
+    roles:
+    - code: jacms:title
+      descr: The main title of a Content
+    disablingCodes: []
+    mandatory: true
+    listFilter: true
+    indexable: true
+    enumeratorStaticItems: 
+    enumeratorStaticItemsSeparator: 
+    enumeratorExtractorBean: 
+    validationRules:
+      minLength: 
+      maxLength: 
+      regex: 
+      rangeStartString: 
+      rangeEndString: 
+      rangeStartStringAttribute: 
+      rangeEndStringAttribute: 
+      equalString: 
+      equalStringAttribute: 
+      rangeStartDate: 
+      rangeEndDate: 
+      rangeStartDateAttribute: 
+      rangeEndDateAttribute: 
+      equalDate: 
+      equalDateAttribute: 
+      rangeStartNumber: 
+      rangeStartNumberAttribute: 
+      rangeEndNumber: 
+      rangeEndNumberAttribute: 
+      equalNumber: 
+      equalNumberAttribute: 
+      ognlValidation: 
+    nestedAttribute: 
+    compositeAttributes: 
+  - code: Abstract
+    type: Hypertext
+    name: 
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: true
+    enumeratorStaticItems: 
+    enumeratorStaticItemsSeparator: 
+    enumeratorExtractorBean: 
+    validationRules:
+      minLength: 
+      maxLength: 
+      regex: 
+      rangeStartString: 
+      rangeEndString: 
+      rangeStartStringAttribute: 
+      rangeEndStringAttribute: 
+      equalString: 
+      equalStringAttribute: 
+      rangeStartDate: 
+      rangeEndDate: 
+      rangeStartDateAttribute: 
+      rangeEndDateAttribute: 
+      equalDate: 
+      equalDateAttribute: 
+      rangeStartNumber: 
+      rangeStartNumberAttribute: 
+      rangeEndNumber: 
+      rangeEndNumberAttribute: 
+      equalNumber: 
+      equalNumberAttribute: 
+      ognlValidation: 
+    nestedAttribute: 
+    compositeAttributes: 
+  - code: MainBody
+    type: Hypertext
+    name: Main Body
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: true
+    enumeratorStaticItems: 
+    enumeratorStaticItemsSeparator: 
+    enumeratorExtractorBean: 
+    validationRules:
+      minLength: 
+      maxLength: 
+      regex: 
+      rangeStartString: 
+      rangeEndString: 
+      rangeStartStringAttribute: 
+      rangeEndStringAttribute: 
+      equalString: 
+      equalStringAttribute: 
+      rangeStartDate: 
+      rangeEndDate: 
+      rangeStartDateAttribute: 
+      rangeEndDateAttribute: 
+      equalDate: 
+      equalDateAttribute: 
+      rangeStartNumber: 
+      rangeStartNumberAttribute: 
+      rangeEndNumber: 
+      rangeEndNumberAttribute: 
+      equalNumber: 
+      equalNumberAttribute: 
+      ognlValidation: 
+    nestedAttribute: 
+    compositeAttributes: 
+  - code: Picture
+    type: Image
+    name: 
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    enumeratorStaticItems: 
+    enumeratorStaticItemsSeparator: 
+    enumeratorExtractorBean: 
+    validationRules:
+      minLength: 
+      maxLength: 
+      regex: 
+      rangeStartString: 
+      rangeEndString: 
+      rangeStartStringAttribute: 
+      rangeEndStringAttribute: 
+      equalString: 
+      equalStringAttribute: 
+      rangeStartDate: 
+      rangeEndDate: 
+      rangeStartDateAttribute: 
+      rangeEndDateAttribute: 
+      equalDate: 
+      equalDateAttribute: 
+      rangeStartNumber: 
+      rangeStartNumberAttribute: 
+      rangeEndNumber: 
+      rangeEndNumberAttribute: 
+      equalNumber: 
+      equalNumberAttribute: 
+      ognlValidation: 
+    nestedAttribute: 
+    compositeAttributes: 
+  - code: Caption
+    type: Text
+    name: 
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: true
+    enumeratorStaticItems: 
+    enumeratorStaticItemsSeparator: 
+    enumeratorExtractorBean: 
+    validationRules:
+      minLength: 
+      maxLength: 
+      regex: 
+      rangeStartString: 
+      rangeEndString: 
+      rangeStartStringAttribute: 
+      rangeEndStringAttribute: 
+      equalString: 
+      equalStringAttribute: 
+      rangeStartDate: 
+      rangeEndDate: 
+      rangeStartDateAttribute: 
+      rangeEndDateAttribute: 
+      equalDate: 
+      equalDateAttribute: 
+      rangeStartNumber: 
+      rangeStartNumberAttribute: 
+      rangeEndNumber: 
+      rangeEndNumberAttribute: 
+      equalNumber: 
+      equalNumberAttribute: 
+      ognlValidation: 
+    nestedAttribute: 
+    compositeAttributes: 
+  - code: Links
+    type: Monolist
+    name: 
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    enumeratorStaticItems: 
+    enumeratorStaticItemsSeparator: 
+    enumeratorExtractorBean: 
+    validationRules:
+      minLength: 
+      maxLength: 
+      regex: 
+      rangeStartString: 
+      rangeEndString: 
+      rangeStartStringAttribute: 
+      rangeEndStringAttribute: 
+      equalString: 
+      equalStringAttribute: 
+      rangeStartDate: 
+      rangeEndDate: 
+      rangeStartDateAttribute: 
+      rangeEndDateAttribute: 
+      equalDate: 
+      equalDateAttribute: 
+      rangeStartNumber: 
+      rangeStartNumberAttribute: 
+      rangeEndNumber: 
+      rangeEndNumberAttribute: 
+      equalNumber: 
+      equalNumberAttribute: 
+      ognlValidation: 
+    nestedAttribute:
+      code: Links
+      type: Link
+      name: 
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: true
+      indexable: true
+      enumeratorStaticItems: 
+      enumeratorStaticItemsSeparator: 
+      enumeratorExtractorBean: 
+      validationRules:
+        minLength: 
+        maxLength: 
+        regex: 
+        rangeStartString: 
+        rangeEndString: 
+        rangeStartStringAttribute: 
+        rangeEndStringAttribute: 
+        equalString: 
+        equalStringAttribute: 
+        rangeStartDate: 
+        rangeEndDate: 
+        rangeStartDateAttribute: 
+        rangeEndDateAttribute: 
+        equalDate: 
+        equalDateAttribute: 
+        rangeStartNumber: 
+        rangeStartNumberAttribute: 
+        rangeEndNumber: 
+        rangeEndNumberAttribute: 
+        equalNumber: 
+        equalNumberAttribute: 
+        ognlValidation: 
+      nestedAttribute: 
+      compositeAttributes: 
+    compositeAttributes: 
+  - code: Attaches
+    type: Monolist
+    name: 
+    roles: []
+    disablingCodes: []
+    mandatory: false
+    listFilter: false
+    indexable: false
+    enumeratorStaticItems: 
+    enumeratorStaticItemsSeparator: 
+    enumeratorExtractorBean: 
+    validationRules:
+      minLength: 
+      maxLength: 
+      regex: 
+      rangeStartString: 
+      rangeEndString: 
+      rangeStartStringAttribute: 
+      rangeEndStringAttribute: 
+      equalString: 
+      equalStringAttribute: 
+      rangeStartDate: 
+      rangeEndDate: 
+      rangeStartDateAttribute: 
+      rangeEndDateAttribute: 
+      equalDate: 
+      equalDateAttribute: 
+      rangeStartNumber: 
+      rangeStartNumberAttribute: 
+      rangeEndNumber: 
+      rangeEndNumberAttribute: 
+      equalNumber: 
+      equalNumberAttribute: 
+      ognlValidation: 
+    nestedAttribute:
+      code: Attaches
+      type: Attach
+      name: 
+      roles: []
+      disablingCodes: []
+      mandatory: false
+      listFilter: false
+      indexable: true
+      enumeratorStaticItems: 
+      enumeratorStaticItemsSeparator: 
+      enumeratorExtractorBean: 
+      validationRules:
+        minLength: 
+        maxLength: 
+        regex: 
+        rangeStartString: 
+        rangeEndString: 
+        rangeStartStringAttribute: 
+        rangeEndStringAttribute: 
+        equalString: 
+        equalStringAttribute: 
+        rangeStartDate: 
+        rangeEndDate: 
+        rangeStartDateAttribute: 
+        rangeEndDateAttribute: 
+        equalDate: 
+        equalDateAttribute: 
+        rangeStartNumber: 
+        rangeStartNumberAttribute: 
+        rangeEndNumber: 
+        rangeEndNumberAttribute: 
+        equalNumber: 
+        equalNumberAttribute: 
+        ognlValidation: 
+      nestedAttribute: 
+      compositeAttributes: 
+    compositeAttributes: 
+  defaultContentModel: 
+  defaultContentModelList: 
+metaData: {}
+errors: []
+
