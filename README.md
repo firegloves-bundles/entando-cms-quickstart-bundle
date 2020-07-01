@@ -1,4 +1,5 @@
-#  Example Bundle containing CMS components for the Quickstart experience
+#  Entando CMS Quickstart Bundle
+## Example Bundle containing CMS components for the Quickstart experience
 
 Openshift YAML file:
 ```
