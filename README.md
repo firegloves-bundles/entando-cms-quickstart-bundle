@@ -16,7 +16,7 @@ spec:
     email: f.leandro@entando.com
   organization: Entando
   url: 'https://github.com/entando/entando-cms-quickstart-bundle.git'
-  thumbnail:
+  thumbnail: 'https://raw.githubusercontent.com/entando/entando-cms-quickstart-bundle/master/resources/Entando_E_Logo_Dark_Blue_BG%404x.png'
   images:
   
   version:
