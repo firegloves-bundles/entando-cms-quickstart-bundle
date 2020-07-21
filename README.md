@@ -4,26 +4,33 @@
 Openshift YAML file:
 ```
 apiVersion: entando.org/v1
-kind: EntandoComponentBundle
+kind: EntandoDeBundle
 metadata:
   name: cms-quickstart-bundle
 spec:
-  code: cms-quickstart-bundle
-  title: Entando CMS Quickstart Bundle
-  description: Example Bundle containing CMS components for the Quickstart experience
-  author:
-    name: Filipe Leandro
-    email: f.leandro@entando.com
-  organization: Entando
-  url: 'https://github.com/entando/entando-cms-quickstart-bundle.git'
-  thumbnail: 'https://raw.githubusercontent.com/entando/entando-cms-quickstart-bundle/master/resources/Entando_E_Logo_Dark_Blue_BG%404x.png'
-  images:
-  
-  version:
-    - version: v0.0.1
-      integrity: ''
-      timestamp: '2020-06-29T16:17:00.000Z'
-    - version: v0.0.2
-      integrity: ''
-      timestamp: '2020-07-01T08:56:00.000Z'
+  details:
+    author: Filipe Leandro
+    description: Example Bundle containing CMS components for the Quickstart experience
+    dist-tags:
+      latest: v0.0.2
+    keywords:
+      - entando6
+    name: Entando Example CMS Bundle
+    time:
+      created: '2020-06-29T16:17:00.000Z'
+      modified: '2020-07-01T08:56:00.000Z'
+      v0.0.1: '2020-06-29T16:17:00.000Z'
+      v0.0.2: '2020-07-01T08:56:00.000Z'
+    versions:
+      - v0.0.1
+      - v0.0.2
+  tags:
+    - integrity: ''
+      shasum: ''
+      tarball: 'https://github.com/entando/entando-cms-quickstart-bundle.git'
+      version: v0.0.1
+    - integrity: ''
+      shasum: ''
+      tarball: 'https://github.com/entando/entando-cms-quickstart-bundle.git'
+      version: v0.0.2
 ```
