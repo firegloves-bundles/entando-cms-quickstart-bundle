@@ -6,7 +6,7 @@ Openshift YAML file:
 apiVersion: entando.org/v1
 kind: EntandoDeBundle
 metadata:
-  name: cms-quickstart-bundle
+  name: cms-firegloves-bundle
 spec:
   details:
     author: Filipe Leandro
@@ -27,10 +27,10 @@ spec:
   tags:
     - integrity: ''
       shasum: ''
-      tarball: 'https://github.com/entando/entando-cms-quickstart-bundle.git'
+      tarball: 'https://github.com/firegloves/entando-cms-quickstart-bundle.git'
       version: v0.0.1
     - integrity: ''
       shasum: ''
-      tarball: 'https://github.com/entando/entando-cms-quickstart-bundle.git'
+      tarball: 'https://github.com/firegloves/entando-cms-quickstart-bundle.git'
       version: v0.0.2
 ```
