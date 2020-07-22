@@ -15,7 +15,7 @@ spec:
       latest: v0.0.2
     keywords:
       - entando6
-    name: Entando Example CMS Bundle
+    name: Entando Firegloves CMS Bundle
     time:
       created: '2020-06-29T16:17:00.000Z'
       modified: '2020-07-01T08:56:00.000Z'
