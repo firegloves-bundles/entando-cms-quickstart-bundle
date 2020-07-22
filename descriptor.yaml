@@ -3,24 +3,24 @@ description: This is a simple CMS bundle
 
 components:
 
+  widgets:
+    - widgets/my-widget.yaml
+
+  fragments:
+    - fragments/my_fragment.yaml
+
+  pages:
+    - pages/my_page.yaml
+
+  pageModels:
+    - pagetemplates/my_page_template.yaml
+
   contentTypes:
     - contenttypes/my_content_type_descriptor.yaml
 
   contentModels:
     - contenttemplates/my_content_template_descriptor.yaml
     - contenttemplates/another_content_template_descriptor.yaml
-
-  fragments:
-    - fragments/my_fragment.yaml
-
-  pageModels:
-    - pagetemplates/my_page_template.yaml
-
-  pages:
-    - pages/my_page.yaml
-
-  widgets:
-    - widgets/my-widget.yaml
 
   labels:
     - key: HELLO # This is the label identifier
