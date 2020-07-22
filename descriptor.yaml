@@ -13,7 +13,7 @@ components:
     - pages/my_page.yaml
 
   pageModels:
-    - pagetemplates/page_template.yaml
+    - pagetemplates/page-template.yaml
 
   contentTypes:
     - contenttypes/my_content_type_descriptor.yaml
