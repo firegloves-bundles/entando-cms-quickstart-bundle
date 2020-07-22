@@ -27,10 +27,10 @@ spec:
   tags:
     - integrity: ''
       shasum: ''
-      tarball: 'https://github.com/firegloves/entando-cms-quickstart-bundle.git'
+      tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.1
     - integrity: ''
       shasum: ''
-      tarball: 'https://github.com/firegloves/entando-cms-quickstart-bundle.git'
+      tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.2
 ```
