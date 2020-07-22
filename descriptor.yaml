@@ -9,3 +9,21 @@ components:
   contentModels:
     - contenttemplates/my_content_template_descriptor.yaml
     - contenttemplates/another_content_template_descriptor.yaml
+
+  fragments:
+    - fragments/my_fragment.yaml
+
+  pageModels:
+    - pagetemplates/my_page_template.yaml
+
+  pages:
+    - pages/my_page.yaml
+
+  widgets:
+    - widgets/my-widget.yaml
+
+  labels:
+    - key: HELLO # This is the label identifier
+      titles: # The titles on the label
+        it: Mio Titolo # The title in Italian
+        en: My Title # The title in English
