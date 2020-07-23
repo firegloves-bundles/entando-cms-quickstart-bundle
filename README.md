@@ -57,4 +57,8 @@ spec:
       shasum: ''
       tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.9
+    - integrity: ''
+      shasum: ''
+      tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
+      version: v0.0.10
 ```
