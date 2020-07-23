@@ -4,7 +4,7 @@ description: This is a simple CMS bundle
 components:
 
   plugins:
-    - plugins/todomvc.yaml
+    - plugins/training-plugin.yaml
 
   widgets:
     - widgets/my-widget.yaml
