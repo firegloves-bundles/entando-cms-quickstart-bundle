@@ -1,0 +1,24 @@
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: hello-world
+spec:
+  details:
+    author: Joe White
+    description: Example Hello World Bundle
+    dist-tags:
+      latest: v0.0.1
+    keywords:
+      - entando6
+    name: Entando Hello World CMS Bundle
+    time:
+      created: '2020-06-29T16:17:00.000Z'
+      modified: '2020-07-01T08:56:00.000Z'
+      v1.0.0: '2020-06-29T16:17:00.000Z'
+    versions:
+      - v0.0.1
+  tags:
+    - integrity: ''
+      shasum: ''
+      tarball: 'https://github.com/joewhite101/helloWorld.git'
+      version: v0.0.1
