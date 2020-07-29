@@ -4,7 +4,7 @@ description: This is a simple CMS bundle
 components:
 
   plugins:
-    - plugins/training-plugin.yaml
+    - plugins/helloworld-plugin.yml
 
   widgets:
     - widgets/my-widget.yaml
