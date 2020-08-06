@@ -8,7 +8,7 @@
 <h1><@wp.currentPage param="title" /></h1>
 <a href="<@wp.url page="homepage"/>">Home</a><br>
 <div>
-    <h1>ENG-346 Bundle page template</h1>
+    <h1>Fire Bundle page template</h1>
     <div><@wp.show frame=0 /></div>
 </div>
 </body>

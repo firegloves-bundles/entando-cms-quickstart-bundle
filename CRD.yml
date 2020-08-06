@@ -2,6 +2,12 @@ apiVersion: entando.org/v1
 kind: EntandoDeBundle
 metadata:
   name: cms-firegloves-bundle
+  labels:
+    widget: "true"
+    plugin: "true"
+    page: "true"
+    pageTemplate: "true"
+    customLabel: "true"
 spec:
   details:
     author: Firegloves

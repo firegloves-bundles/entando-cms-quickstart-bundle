@@ -1,9 +1,9 @@
-code: eng-346_page-template
+code: fire_page-template
 description: Page template with default widget for ENG-346
 
 titles:
-  en: ENG-346 Page template
-  it: ENG-346 Page template
+  en: Fire Page template
+  it: Fire Page template
 
 configuration:
   frames:
