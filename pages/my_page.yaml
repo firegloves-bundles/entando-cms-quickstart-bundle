@@ -6,6 +6,5 @@ pageModel: service
 ownerGroup: administrators
 joinGroups:
   - free
-  - developers
 displayedInMenu: true
 status: published
