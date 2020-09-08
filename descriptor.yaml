@@ -3,8 +3,8 @@ description: This is a simple CMS bundle
 
 components:
 
-  plugins:
-    - plugins/helloworld-plugin.yml
+#  plugins:
+#    - plugins/helloworld-plugin.yml
 
   widgets:
     - widgets/my-widget.yaml
