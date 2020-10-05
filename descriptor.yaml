@@ -26,7 +26,4 @@ components:
     - contenttemplates/another_content_template_descriptor.yaml
 
   labels:
-    - key: HELLO # This is the label identifier
-      titles: # The titles on the label
-        it: Mio Titolo # The title in Italian
-        en: My Title # The title in English
+    - labels/labels.yaml
