@@ -13,7 +13,7 @@ spec:
     author: Firegloves
     description: Example Bundle containing CMS components for the Quickstart experience
     dist-tags:
-      latest: v0.0.16
+      latest: v0.0.17
     keywords:
       - entando6
     name: Entando Firegloves CMS Bundle
@@ -53,6 +53,7 @@ spec:
       - v0.0.14
       - v0.0.15
       - v0.0.16
+      - v0.0.17
   tags:
     - integrity: ''
       shasum: ''
@@ -114,3 +115,7 @@ spec:
       shasum: ''
       tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.16
+    - integrity: ''
+      shasum: ''
+      tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
+      version: v0.0.17

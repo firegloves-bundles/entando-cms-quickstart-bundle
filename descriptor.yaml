@@ -27,3 +27,6 @@ components:
 
   labels:
     - labels/labels.yaml
+
+  languages:
+    - languages/languages.yaml
