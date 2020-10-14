@@ -6,7 +6,6 @@ defaultContentModelList:
 attributes:
   - code: title
     type: Text
-    name: Titolo
     names:
       en: title
     roles: []
@@ -44,7 +43,6 @@ attributes:
     compositeAttributes: null
   - code: subtitle
     type: Hypertext
-    name: Sottotitolo
     names:
       en: subtitle
     roles: []
@@ -82,7 +80,6 @@ attributes:
     compositeAttributes: null
   - code: descr
     type: Hypertext
-    name: Description
     names:
       en: descr
     roles: []
@@ -120,7 +117,6 @@ attributes:
     compositeAttributes: null
   - code: img
     type: Image
-    name: Lateral Image
     names:
       en: img
     roles: []
@@ -158,7 +154,6 @@ attributes:
     compositeAttributes: null
   - code: link
     type: Link
-    name: CTA Link
     names:
       en: link
     roles: []
@@ -196,7 +191,6 @@ attributes:
     compositeAttributes: null
   - code: accord
     type: Monolist
-    name: Accordion or Card list
     names:
       en: accord
     roles: []
@@ -233,7 +227,6 @@ attributes:
     nestedAttribute:
       code: accord
       type: Composite
-      name: null
       names:
         en: accord
       roles: []
@@ -271,7 +264,6 @@ attributes:
       compositeAttributes:
         - code: idcard
           type: Number
-          name: Card number
           names:
             en: idcard
           roles: []
@@ -309,7 +301,6 @@ attributes:
           compositeAttributes: null
         - code: headtitle
           type: Text
-          name: Header title
           names:
             en: headtitle
           roles: []
@@ -347,7 +338,6 @@ attributes:
           compositeAttributes: null
         - code: atitle
           type: Text
-          name: Accordion item title
           names:
             en: atitle
           roles: []
@@ -385,7 +375,6 @@ attributes:
           compositeAttributes: null
         - code: asubtitle
           type: Hypertext
-          name: Accordion item description
           names:
             en: asubtitle
           roles: []
@@ -423,7 +412,6 @@ attributes:
           compositeAttributes: null
         - code: aimg
           type: Image
-          name: Logo on card
           names:
             en: aimg
           roles: []
@@ -461,7 +449,6 @@ attributes:
           compositeAttributes: null
         - code: open
           type: Enumerator
-          name: Open accordion
           names:
             en: open
           roles: []
