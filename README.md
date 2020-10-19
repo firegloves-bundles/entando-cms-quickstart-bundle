@@ -1,3 +1,4 @@
+```
 apiVersion: entando.org/v1
 kind: EntandoDeBundle
 metadata:
@@ -132,3 +133,4 @@ spec:
       shasum: ''
       tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.19
+  ```
