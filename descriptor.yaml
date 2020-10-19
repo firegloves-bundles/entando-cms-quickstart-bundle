@@ -25,6 +25,9 @@ components:
     - contenttemplates/my_content_template_descriptor.yaml
     - contenttemplates/another_content_template_descriptor.yaml
 
+  contents:
+    - contents/bnr102-descriptor.yaml
+
   labels:
     - labels/labels.yaml
 
