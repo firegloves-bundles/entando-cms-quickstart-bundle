@@ -27,6 +27,7 @@ components:
 
   contents:
     - contents/bnr102-descriptor.yaml
+    - contents/bnr16-descriptor.yaml
 
   labels:
     - labels/labels.yaml
