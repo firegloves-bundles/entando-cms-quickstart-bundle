@@ -150,8 +150,7 @@ spec:
       version: v0.0.21
     - integrity: ''
       description: '- all but contents
-                    - page template fix for entando 6.2 sprint 12
-                    - plugin permissions and custom ingress path'
+                    - page template fix for entando 6.2 sprint 12'
       shasum: ''
       tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.22
