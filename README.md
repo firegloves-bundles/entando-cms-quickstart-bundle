@@ -143,7 +143,7 @@ spec:
       tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.20
     - integrity: ''
-      description: 'removed labels, languages, contents'
+      description: 'only plugin'
       shasum: ''
       tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.21
