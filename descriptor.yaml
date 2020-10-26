@@ -25,12 +25,12 @@ components:
     - contenttemplates/my_content_template_descriptor.yaml
     - contenttemplates/another_content_template_descriptor.yaml
 
-  contents:
-    - contents/bnr102-descriptor.yaml
-    - contents/bnr16-descriptor.yaml
-
-  labels:
-    - labels/labels.yaml
-
-  languages:
-    - languages/languages.yaml
+#  contents:
+#    - contents/bnr102-descriptor.yaml
+#    - contents/bnr16-descriptor.yaml
+#sa
+#  labels:
+#    - labels/labels.yaml
+#
+#  languages:
+#    - languages/languages.yaml
