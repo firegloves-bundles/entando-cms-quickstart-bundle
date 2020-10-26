@@ -5,32 +5,32 @@ components:
 
   plugins:
     - plugins/helloworld-plugin.yml
-#
-#  widgets:
-#    - widgets/my-widget.yaml
-#
-#  fragments:
-#    - fragments/my_fragment.yaml
-#
-#  pages:
-#    - pages/my_page.yaml
-#
-#  pageModels:
-#    - pagetemplates/page-template.yaml
-#
-#  contentTypes:
-#    - contenttypes/my_content_type_descriptor.yaml
-#
-#  contentModels:
-#    - contenttemplates/my_content_template_descriptor.yaml
-#    - contenttemplates/another_content_template_descriptor.yaml
-#
-#  contents:
-#    - contents/bnr102-descriptor.yaml
-#    - contents/bnr16-descriptor.yaml
-#sa
-#  labels:
-#    - labels/labels.yaml
-#
-#  languages:
-#    - languages/languages.yaml
+
+  widgets:
+    - widgets/my-widget.yaml
+
+  fragments:
+    - fragments/my_fragment.yaml
+
+  pages:
+    - pages/my_page.yaml
+
+  pageModels:
+    - pagetemplates/page-template.yaml
+
+  contentTypes:
+    - contenttypes/my_content_type_descriptor.yaml
+
+  contentModels:
+    - contenttemplates/my_content_template_descriptor.yaml
+    - contenttemplates/another_content_template_descriptor.yaml
+
+  contents:
+    - contents/bnr102-descriptor.yaml
+    - contents/bnr16-descriptor.yaml
+
+  labels:
+    - labels/labels.yaml
+
+  languages:
+    - languages/languages.yaml

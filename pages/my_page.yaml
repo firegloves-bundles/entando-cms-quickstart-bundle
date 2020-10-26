@@ -2,7 +2,7 @@ code: firepage
 titles:
   it: La mia pagina
   en: My page
-pageModel: service
+pageModel: single_frame_page
 ownerGroup: administrators
 joinGroups:
   - free
