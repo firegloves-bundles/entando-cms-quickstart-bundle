@@ -41,5 +41,5 @@ components:
   groups:
     - groups/groups-descriptor.yaml
 
-  assets:
-    - assets/35-descriptor.yaml
+#  assets:
+#    - assets/35-descriptor.yaml
