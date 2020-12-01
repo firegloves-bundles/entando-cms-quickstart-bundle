@@ -14,7 +14,7 @@ spec:
     author: Firegloves
     description: Example Bundle containing CMS components for the Quickstart experience
     dist-tags:
-      latest: v0.0.25
+      latest: v0.0.26
     keywords:
       - entando6
     name: Entando Firegloves CMS Bundle
@@ -45,6 +45,8 @@ spec:
       v0.0.22: '2020-07-01T20:56:00.000Z'
       v0.0.23: '2020-07-01T20:56:00.000Z'
       v0.0.24: '2020-07-01T20:56:00.000Z'
+      v0.0.25: '2020-07-01T20:56:00.000Z'
+      v0.0.26: '2020-07-01T20:56:00.000Z'
     versions:
       - v0.0.1
       - v0.0.2
@@ -71,6 +73,7 @@ spec:
       - v0.0.23
       - v0.0.24
       - v0.0.25
+      - v0.0.26
   tags:
     - integrity: ''
       shasum: ''
@@ -175,4 +178,9 @@ spec:
       shasum: ''
       tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
       version: v0.0.25
+    - integrity: ''
+      description: 'only plugin long name descriptor v1'
+      shasum: ''
+      tarball: 'https://github.com/firegloves-bundles/entando-cms-quickstart-bundle.git'
+      version: v0.0.26
   ```
